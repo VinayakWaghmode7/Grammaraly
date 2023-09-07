@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammarly</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2 >Grammarly</h2>
+        <p>Check your English text for your grammer,spelling, and punctuation errors
+            with thapa technical real time char counter.
+        </p>
+        <textarea  id="textarea" class="textarea" maxlength="150" placeholder="Please Write Here" ></textarea>
+        <button onclick="copyText()">Copy Text</button>
+        <div class="counter-container">
+            <P>Total Character:<span id="total-counter">0</span></P>
+            <p>Remaning char:<span id="remaining-counter">150</span> </p>
+        </div>
+    </div>
+</body>
+</html>
